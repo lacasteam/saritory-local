@@ -1,0 +1,112 @@
+#landingpage-logo{
+	filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.75));
+}
+
+#header-text__container{
+	margin-top: -15%;
+}
+
+#landing-page .sarisari-store{
+	font-size: 3.75rem;	
+}
+
+.learnmore{
+	margin-top:10px;
+	padding: .75rem 1rem !important;
+}
+
+.learnmore:hover{
+	background-color: #E9803F !important;
+}
+
+.learnmore a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 1rem;
+}
+
+.learnmore a:hover{
+	color: #fff;
+}
+
+.card-icons{
+	height: 90px;
+	width: auto;
+}
+
+#reviews__container{
+	gap: 30px;
+}
+
+#CTA_Register{
+	display: block;
+    background-color: #ff914d;
+    margin-inline: auto;
+}
+
+@media (max-width: 1399px){
+	.card__container{
+		width: 16rem !important;
+		margin-inline: auto;
+	}
+}
+
+@media (max-width: 1199px){
+	.card__container{
+		width: 25rem !important;
+		margin-inline: auto;
+	}
+}
+
+@media (max-width: 1024px){
+	.card__container{
+		width: 20rem !important;
+		margin-inline: auto;
+	}
+}
+
+
+@media (max-width: 768px){
+	.sarisari-store{
+		text-align:center;
+	}
+	#header-text__container{
+		margin-top: unset;
+	}
+	.learnmore{
+		display:block !important;
+		margin-inline: auto;
+	}
+	.header-text__main{
+		justify-content: center !important;
+	}
+	#landing-page .sarisari-store {
+		font-size: 2.75rem;
+	}
+}
+
+@media (max-width: 768px){
+	#landing-page .sarisari-store {
+		font-size: 2.5rem;
+	}
+	#reviews__container{
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 425px){
+	.footer__container{
+		flex-direction: column;
+	}
+	#footer-logo{
+		display: block;
+		margin-inline: auto;
+		margin-top: 20px;
+	}
+	#copyright{
+		text-align: center!important;
+	}
+}
+
+
+

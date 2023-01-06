@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "date-fns": "^2.29.3",
+    "luxon": "^3.1.0"
+  }
+}

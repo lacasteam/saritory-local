@@ -1,0 +1,18 @@
+$primary-dark : #0062BE;
+$primary-light : #0082FC;
+$theme-dark : #212529;
+$theme-light : #F5F5F4;
+$accent-dark : #E9803F;
+$accent-light : #FF914D;
+
+
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+//SAMPLE IMPORTS
+@import "./util";
+@import "./login-signup";
+@import "./dashboard";
+@import "./index";
+

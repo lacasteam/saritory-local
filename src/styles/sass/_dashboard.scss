@@ -1,0 +1,326 @@
+
+.dashboard .navbar {
+    padding: 15px 10px;
+    background: #f5f5f4;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard .navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+    
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: #f5f5f5;
+  /*  color: #0062be; */
+    transition: all 0.3s;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+    padding: 10px;
+    background: #f5f5f4;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #d9bdab;
+}
+
+#sidebar ul p {        /*name of store*/
+    color: #212529;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#sidebar ul li a {     /*sidebar list*/
+    padding: 15px;
+    font-size: 1.1em;
+    display: block;
+    color: #0062be;
+	text-decoration: none;
+}
+
+#sidebar ul li a:hover {
+    color: #e9803f;
+    background: #fff;
+    text-decoration: none;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #0062be;
+    font-weight: bold;
+    background: #fff;
+    /* font-style: italic; */
+    
+}
+
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.dashboard ul ul a {                           /*dropdown list*/
+    font-size: 0.9em !important;
+    background: #f5f5f4;
+    color: #0062be;
+    
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.otherlink1 {
+    background: #0082fc !important;
+    color: #fff !important;
+}
+a.otherlink1:hover {
+    background: #fff !important;
+    color: #0082fc !important;
+}
+a.otherlink2 {
+    background: #ff914d !important;
+    color: #fff !important;
+}
+a.otherlink2:hover {
+    background: #fff !important;
+    color: #ff914d !important;
+}
+
+.fa-align-left{
+    color: #fff !important;
+    
+}
+
+#sidebarCollapse{
+    background-color:#0082fc !important;
+}
+#sidebarCollapse{
+    background-color:#0082fc !important;
+}
+
+#sidebarCollapse:hover{
+    background-color:#0062be !important;
+}
+
+#topNavbar__dropdown{
+	background-color: #f5f5f4;
+}
+
+#sideMenuDashboard a::before{
+    font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	content: "\f624";
+    margin-right: 10px;
+}
+
+#sideMenuSellerArea a::before{
+    font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	content: "\f54e";
+    margin-right: 10px;
+}
+
+#sideMenuManageItems .beforeIcon::before{
+    font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	content: "\e4c7";
+    margin-right: 10px; 
+}
+
+#sideMenuEarnings .beforeIcon::before{
+    font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	content: "\f81d";
+    margin-right: 10px; 
+}
+
+.sideMenuDropdown .dropdown-toggle::before {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	content: "\f0d7";
+	float: right;
+}
+
+.sideMenuDropdown .dropdown-toggle::after{
+    display: none !important;
+}
+
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+   
+}
+#username {
+    font-weight: bold;
+    color: #0062be;
+}
+#username::after {
+    content: none;
+}
+#topNavbar ul li a {
+    color: #0062be;
+    border-radius: 10px;
+    margin-top: 3px;
+   
+}
+#topNavbar ul li a:hover {
+    color: #e9803f;
+    background: #f5f5f4;
+    border-radius: 10px;
+    margin-top: 3px;
+}
+
+.burgerMenu{
+	background-color: #0082fc !important;
+	color: white !important;
+}
+
+
+
+.dashboard .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+#storeName{
+    text-align: center;
+    display: block;
+    color: #0082fc;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.tabmobile-center{
+	text-align:center !important;
+}
+
+//////////////// CARDS
+
+#cardFeatures {
+    justify-content: center;
+
+}
+
+#cardFeatures .card {
+    border-left: 12px solid #0082fc;
+    box-shadow: 1px 1px 2px rgb(198, 198, 198);
+}
+
+#cardFeatures .card:hover {
+    border-left: 12px solid #ff914d;
+    box-shadow: 1px 1px 2px rgb(104, 104, 104);
+}
+
+#cardFeatures a {
+    background: none;
+    border: none;
+    color: #0082fc;
+    text-align: right;
+}
+
+#cardFeatures a:hover {
+    color: #ff914d;
+
+}
+
+#cardFeatures h1 {
+    font-size: 20px;
+    color: #0062be;
+    font-weight: bold;
+}
+
+#cardFeatures p {
+    font-size: 15px;
+    margin: 0%;
+}
+
+#cardFeatures span {
+    float: right;
+}
+
+#cardFeatures .cardp {
+    font-size: 40px;
+}
+
+.cardNumber{
+    font-size: 28px !important;
+    color: #5a5c69;
+    font-weight: bold;
+}
+
+
+
+
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+	#usernameArea{
+		justify-content: center;
+	}
+}
